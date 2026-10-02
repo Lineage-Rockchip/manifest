@@ -3,9 +3,14 @@
 	<!-- H96 Max M9S (RK3576). Push access needs ssh; for a read-only tree
 	     drop remote="lineage-rockchip" and use remote="github" instead. -->
 	<project path="device/h96/m9s" remote="github" name="Lineage-Rockchip/android_device_h96_m9s" revision="lineage-23.2" />
-	<project path="device/rockchip/rk3576-common" remote="github" name="Lineage-Rockchip/android_device_rockchip_rk3576-common" revision="lineage-23.2" />
+	<project path="device/rockchip/rk35xx-common" remote="github" name="Lineage-Rockchip/android_device_rockchip_rk35xx-common" revision="lineage-23.2" />
 	<project path="kernel/rockchip/rk3576" remote="github" name="Lineage-Rockchip/android_kernel_rockchip_rk3576" revision="lineage-23.2" />
-	<project path="vendor/rockchip/rk3576-common" remote="github" name="Lineage-Rockchip/proprietary_vendor_rockchip_rk3576-common" revision="lineage-23.2" />
+	<project path="vendor/rockchip/rk35xx-common" remote="github" name="Lineage-Rockchip/proprietary_vendor_rockchip_rk35xx-common" revision="lineage-23.2" />
+	<project path="vendor/rockchip/gpu" remote="github" name="Lineage-Rockchip/proprietary_vendor_rockchip_gpu" revision="lineage-23.2" />
+
+	<!-- Orange Pi 5 Max (RK3588) -->
+	<project path="device/orangepi/opi5max" remote="github" name="Lineage-Rockchip/android_device_orangepi_opi5max" revision="lineage-23.2" />
+	<project path="vendor/orangepi/opi5max" remote="github" name="Lineage-Rockchip/proprietary_vendor_orangepi_opi5max" revision="lineage-23.2" />
 
 	<project path="hardware/rockchip/interfaces" remote="github" name="Lineage-Rockchip/android_hardware_rockchip_interfaces" revision="lineage-23.2" />
 	<project path="hardware/rockchip/fwkservices" remote="github" name="Lineage-Rockchip/android_hardware_rockchip_fwkservices" revision="lineage-23.2" />
