@@ -11,9 +11,30 @@
 	<!-- Orange Pi 5 Max (RK3588) -->
 	<project path="device/orangepi/opi5max" remote="github" name="Lineage-Rockchip/android_device_orangepi_opi5max" revision="lineage-23.2" />
 	<project path="vendor/orangepi/opi5max" remote="github" name="Lineage-Rockchip/proprietary_vendor_orangepi_opi5max" revision="lineage-23.2" />
+	<project path="device/orangepi/opi5pro" remote="github" name="Lineage-Rockchip/android_device_orangepi_opi5pro" revision="lineage-23.2" />
+	<project path="vendor/orangepi/opi5pro" remote="github" name="Lineage-Rockchip/proprietary_vendor_orangepi_opi5pro" revision="lineage-23.2" />
+
+	<!-- H96 Max V58 (RK3588) -->
+	<project path="device/h96/v58" remote="github" name="Lineage-Rockchip/android_device_h96_v58" revision="lineage-23.2" />
+	<project path="vendor/h96/v58" remote="github" name="Lineage-Rockchip/proprietary_vendor_h96_v58" revision="lineage-23.2" />
 
 	<project path="hardware/rockchip/interfaces" remote="github" name="Lineage-Rockchip/android_hardware_rockchip_interfaces" revision="lineage-23.2" />
 	<project path="hardware/rockchip/fwkservices" remote="github" name="Lineage-Rockchip/android_hardware_rockchip_fwkservices" revision="lineage-23.2" />
+
+	<!-- Rockchip RKR8 SDK projects (Khadas Edge-2L), full history, our commits on lineage-23.2 -->
+	<project path="hardware/rockchip/hwcomposer/drmhwc2" remote="github" name="Lineage-Rockchip/android_hardware_rockchip_hwcomposer_drmhwc2" revision="lineage-23.2" />
+	<project path="hardware/rockchip/hwcomposer/hwc3_aidl" remote="github" name="Lineage-Rockchip/android_hardware_rockchip_hwcomposer_hwc3_aidl" revision="lineage-23.2" />
+	<project path="hardware/rockchip/libbaseparameter" remote="github" name="Lineage-Rockchip/android_hardware_rockchip_libbaseparameter" revision="lineage-23.2" />
+	<project path="hardware/rockchip/libhardware_rockchip" remote="github" name="Lineage-Rockchip/android_hardware_rockchip_libhardware_rockchip" revision="lineage-23.2" />
+	<project path="hardware/rockchip/libpq" remote="github" name="Lineage-Rockchip/android_hardware_rockchip_libpq" revision="lineage-23.2" />
+	<project path="hardware/rockchip/librga" remote="github" name="Lineage-Rockchip/android_hardware_rockchip_librga" revision="lineage-23.2" />
+	<project path="hardware/rockchip/libsvep/libsvepmemc" remote="github" name="Lineage-Rockchip/android_hardware_rockchip_libsvep_libsvepmemc" revision="lineage-23.2" />
+	<project path="hardware/rockchip/libsvep/libsvepsr" remote="github" name="Lineage-Rockchip/android_hardware_rockchip_libsvep_libsvepsr" revision="lineage-23.2" />
+	<project path="hardware/rockchip/libvisionpq" remote="github" name="Lineage-Rockchip/android_hardware_rockchip_libvisionpq" revision="lineage-23.2" />
+
+	<!-- SurfaceFlinger: Rockchip SVEP frame-pending bypass -->
+	<remove-project name="LineageOS/android_frameworks_native" />
+	<project path="frameworks/native" remote="github" name="Lineage-Rockchip/android_frameworks_native" revision="lineage-23.2" groups="pdk" />
 
 	<project path="kernel/rockchip/kernel-6.1" remote="github" name="Lineage-Rockchip/android_kernel_rockchip_kernel-6.1"
 	         revision="lineage-23.2" />
