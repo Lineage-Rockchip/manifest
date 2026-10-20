@@ -31,8 +31,6 @@
 	<project path="hardware/rockchip/libhardware_rockchip" remote="github" name="Lineage-Rockchip/android_hardware_rockchip_libhardware_rockchip" revision="lineage-23.2" />
 	<project path="hardware/rockchip/libpq" remote="github" name="Lineage-Rockchip/android_hardware_rockchip_libpq" revision="lineage-23.2" />
 	<project path="hardware/rockchip/librga" remote="github" name="Lineage-Rockchip/android_hardware_rockchip_librga" revision="lineage-23.2" />
-	<project path="hardware/rockchip/libsvep/libsvepmemc" remote="github" name="Lineage-Rockchip/android_hardware_rockchip_libsvep_libsvepmemc" revision="lineage-23.2" />
-	<project path="hardware/rockchip/libsvep/libsvepsr" remote="github" name="Lineage-Rockchip/android_hardware_rockchip_libsvep_libsvepsr" revision="lineage-23.2" />
 	<project path="hardware/rockchip/libvisionpq" remote="github" name="Lineage-Rockchip/android_hardware_rockchip_libvisionpq" revision="lineage-23.2" />
 
 	<!-- Codec2 HAL from git.odroid.com rk/platform/vendor/rockchip/hardware/codec2, full history, 1.14.19 + our commits on lineage-23.2 -->
